@@ -331,12 +331,14 @@ table td {
 
 .home-about h3 {
   box-sizing: border-box;
+  border-radius: 15px 50px 15px;
   box-decoration-break: clone;
   word-wrap: break-word;
   background-color: var(--light-secondary-color) !important;
-  color: var(--light-text-color);
+  color: #bb1111;
   padding: 1px 4px;
-  font-size: 1.05em
+  font-size: 0.9em;
+  font-family: monospace;
 }
 
 .social-icons {

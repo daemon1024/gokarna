@@ -80,7 +80,7 @@ pre {
 
 .home-about h3 {
   background-color: var(--dark-secondary-color) !important;
-  color: var(--dark-text-color);
+  color: #44eeee;
 }
 
 .header-shadow {
