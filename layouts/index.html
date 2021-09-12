@@ -6,7 +6,7 @@
         {{ end }}
 	</div>
     <h1>{{ .Site.Params.Title | default .Site.Title }}</h1>
-    <h3>{{ .Site.Params.Description }}</h3>
+    <h3>{{ .Site.Params.Description | default .Content }}</h3>
 </section>
 
 <div class="flex-break"></div>
