@@ -253,7 +253,8 @@ code {
 :not(pre) > code {
   background-color: var(--light-secondary-color) !important;
   color: var(--light-text-color);
-  padding: 1px 4px;
+  padding: 3px 6px;
+  border-radius: 5px;
 }
 
 pre code {
