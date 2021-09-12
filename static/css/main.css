@@ -329,6 +329,16 @@ table td {
   width: 15rem;
 }
 
+.home-about h3 {
+  box-sizing: border-box;
+  box-decoration-break: clone;
+  word-wrap: break-word;
+  background-color: var(--light-secondary-color) !important;
+  color: var(--light-text-color);
+  padding: 1px 4px;
+  font-size: 1.05em
+}
+
 .social-icons {
   text-align: center;
 }
