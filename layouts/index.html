@@ -5,7 +5,7 @@
         <img class={{ .Site.Params.AvatarSize | default "size-m" }} src='{{ .Site.BaseURL }}{{ .Site.Params.AvatarURL }}' alt="{{ .Site.Params.AvatarAltText|default "avatar" }}" />
         {{ end }}
 	</div>
-    <h1>{{ .Site.Title }}</h1>
+    <h1>{{ .Site.Params.Title | default .Site.Title }}</h1>
     <h3>{{ .Site.Params.Description }}</h3>
 </section>
 
@@ -27,7 +27,7 @@
 
 <!-- Render content/_index.md if it exists and isn't empty -->
 {{ if (and (fileExists "content/_index.md") .Content) }}
-<hr>
+<br>
 <section class="home-content">
     {{ .Content }}
 </section>

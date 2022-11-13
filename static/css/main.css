@@ -165,6 +165,7 @@ img {
 }
 .nav-title a {
   height: 50px;
+  font-weight: 600;
 }
 .header-nav .nav-links {
   float: right;
@@ -316,7 +317,8 @@ code {
 :not(pre) > code {
   background-color: var(--light-secondary-color) !important;
   color: var(--light-text-color);
-  padding: 1px 4px;
+  padding: 3px 6px;
+  border-radius: 5px;
 }
 
 pre code {
@@ -415,6 +417,21 @@ table td {
 
 .social-icon a svg path {
   transition: fill 0.15s ease;
+}
+
+.home-content {
+  box-sizing: border-box;
+  border-radius: 15px 50px 15px;
+  box-decoration-break: clone;
+  word-wrap: break-word;
+  background-color: var(--light-secondary-color) !important;
+  color: #bb1111;
+  padding: 1px 4px;
+  font-size: 0.9em;
+  font-family: monospace;
+  font-weight: 800;
+  width: 80%;
+  margin: auto;
 }
 
 .home-posts {
@@ -556,7 +573,7 @@ table td {
     width: 100%;
   }
 
-  .home-about, .home-content {
+  .home-about {
     margin: 0 auto;
   }
 

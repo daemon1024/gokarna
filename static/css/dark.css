@@ -1,7 +1,7 @@
 :root {
-  --dark-primary-color: 34, 39, 46;
-  --dark-secondary-color: #2d333b;
-  --dark-tertiary-color: #646464;
+  --dark-primary-color: 13, 15, 21;
+  --dark-secondary-color: #1a1e22;
+  --dark-tertiary-color: #3f3f3f;
   --dark-text-color: white;
 }
 
@@ -35,6 +35,11 @@ a:hover .feather-moon {
 
 .social-icons-list .social-icon a:hover {
   fill: var(--accent-color);
+}
+
+.home-content {
+  background-color: var(--dark-secondary-color) !important;
+  color: #44eeee;
 }
 
 .post-tags .post-tag:hover {
